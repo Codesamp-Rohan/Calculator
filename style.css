@@ -5,13 +5,14 @@
 body{
     display: flex;
     justify-content: center;
-    background-color: #c7a780;
+    background-color: #443c31;
     color: white;
 }
 h1{
-    
+    font-weight: 100;
 }
-.calculator{  
+.calculator{ 
+    border-radius: 31px; 
     width: 300px;
     height: auto;
     display: flex;
@@ -26,7 +27,7 @@ h1{
     transition: 300ms;
 }
 .calculator:hover{
-     box-shadow: 20px 20px 20px #877124;
+    box-shadow: 10px 10px 100px #877124;
 }
 .display{
     width: 100%;
@@ -48,7 +49,15 @@ h1{
     border-radius: 183px;
     border: 0px;
 }
+.button:hover{
+    box-shadow: 2px 4px 0px black;
+}
 #reset{
+    border-radius: 10px;
     width: 298px;
     height: 80px;
+    border: 0px;
+}
+#reset:hover{
+    box-shadow: 2px 4px 0px black;
 }
