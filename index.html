@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <input type="tel" class="display" id="display1" placeholder="Number 1">
+        <input type="tel" class="display" id="display2" placeholder="Number 2">
+        <input type="tel" class="display" id="display3" placeholder="Answer">
+
+        <div class="mainlane">
+        <div class="lane" id="lane1">
+            <button type="submit" onclick="add()"  class="button"><h1>+</h1></button>
+        </div>
+        <div class="lane" id="lane2">
+            <button type="submit" onclick="minus()" class="button"><h1>-</h1></button>
+        </div>
+        <div class="lane" id="lane3">
+            <button type="submit" onclick="multi()" class="button"><h1>*</h1></button>
+        </div>
+        <div class="lane" onclick="divide()" id="lane4">
+            <button type="submit" class="button"><h1>/</h1></button>
+        </div>
+        </div>
+        
+        <input type="submit" onclick="reset()" id="reset" value="RESET">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
